@@ -502,18 +502,302 @@ body {
   text-decoration: underline;
   text-underline-position: under;
 }
-
-
+.t10 {
+  width: 100%;
+  height: 7%;
+}
 
 th,
 td ,table{
   border: 1px solid #000;
   border-collapse: collapse;
   text-align: center;
+  
+}
+
+td {
+  height: 11%;
 }
 
 .pl {
   padding-left: 2px;
 }
 
+/* ----------------- page 2 ------------- */
+.boxs2 {
+  position: absolute;
+  width: 10.8in;
+  height: 6.8in;
+  z-index: 1;
+}
+
+
+.boxs2 .allCol {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+}
+
+.session5 {
+  width: 100%;
+  height: 7%;
+  border: 1px #000 solid;
+  display: flex;
+  flex-direction: row;
+}
+
+.session5 .row1 {
+  display: flex;
+  justify-content: center;
+  width: 9%;
+  height: 100%;
+}
+
+.session5 .row1 img {
+  height: 100%;
+  width: 70%;
+  transform: scale(1.6);
+}
+
+.session5 .row2 {
+  width: 91%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.session5 .row2 .row2-row1 {
+  width: 50%;
+  height: 100%;
+}
+
+.session5 .row2 .row2-row2 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.session5 .row2 .row2-row2 .row2-row2-row {
+  width: 26%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.session5 .row2 .row2-row2 .row2-row2-row .row2-row2-row-col {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 50%;
+}
+
+.session5 .row2 .row2-row2 .row2-row2-rows {
+  width: 22%;
+  height: 100%;
+}
+
+.session6 {
+  width: 99.8%;
+  height: 5%;
+  display: flex;
+  align-items: end;
+}
+
+.session7 {
+  width: 100.2%;
+  height: 83%;
+}
+
+.set-table{
+  width: 100.1%;
+  height: 83%;
+}
+
+.session7 table {
+  width: 100%;
+  height: 100%;
+}
+
+.session7 .row1 {
+  width: 100%;
+  height: 10%;
+}
+.session7 .row2 {
+  width: 100%;
+  height: 10%;
+}
+
+/* ------------------ page 4 ----------------- */
+
+.session9 {
+  width: 100%;
+  height: 7%;
+  display: flex;
+  flex-direction: row;
+}
+.session9 .row1 {
+  display: flex;
+  justify-content: center;
+  width: 9%;
+  height: 100%;
+}
+.session9 .row1 img {
+  height: 100%;
+  width: 70%;
+  transform: scale(1.6);
+}
+.session9 .row2 {
+  width: 91%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.session9 .row2 .row2-row1 {
+  width: 50%;
+  height: 100%;
+}
+.session9 .row2 .row2-row2 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.session9 .row2 .row2-row2 .row2-row2-row {
+  width: 26%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.session9 .row2 .row2-row2 .row2-row2-row .row2-row2-row-col {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 50%;
+}
+.session9 .row2 .row2-row2 .row2-row2-rows {
+  width: 22%;
+  height: 100%;
+}
+.session10 {
+  width: 100%;
+  height: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.pl {
+  padding-left: 2px;
+}
+
+.session11 {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+}
+
+.session11 .row {
+  width: 50%;
+  height: 95%;
+  margin: 1rem 2rem 0 0;
+}
+
+.session11 .rows {
+  width: 50%;
+  height: 95%;
+    margin: 1rem 0 0 2rem;
+}
+
+
+.session12 {
+  width: 100%;
+  height: 38%;
+  display: flex;
+  flex-direction: row;
+}
+.session12 .row{
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.session12 .row1{
+  width: 20%;
+  height: 100%;
+  margin-top: 10px;
+}
+.session12 .row2{
+  width: 40%;
+  height: 100%;
+  margin-top: 10px;
+}
+.session12 .row2 .col{
+  width: 80%;
+  height: 5%;
+}
+.session12 .row3{
+  width: 40%;
+  height: 100%;
+  margin-top: 10px;
+}
+.session12 .row3 .col{
+  width: 95%;
+  height: 5%;
+}
+.session12 .row1{
+  width: 20%;
+  height: 100%;
+  margin-top: 10px;
+}
+
+.session12 .rows{
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.session12 .rows .col{
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0 0 2rem;
+}
+.session12 .rows .col .col-col{
+  width: 80%;
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+}
+.session12 .rows .cols{
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+  margin-left: 2rem;
+}
+.session12 .rows .col .row{
+  width: 25%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0 0 2rem;
+}
+.session12 .rows .cols .row{
+  width: 25%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+}
+.session12 .rows .cols .row-col1 {
+  width: 100%;
+  height: 25%;
+}
+.session12 .rows .cols .row-col2 {
+  width: 100%;
+  height: 50%;
+}
 
